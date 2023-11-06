@@ -1,0 +1,19 @@
+version: '3'
+services:
+  tv:
+    image: fk23/sonytv:v1
+    ports:
+      - "8000:80"
+
+  playstation:
+    image: fk23/sonyplaystation:v1
+    ports:
+      - "8001:80"
+
+  frige:
+    image: fk23/sonyfrige:v1
+    ports:
+      - "8002:80"    
+
+    
+  
